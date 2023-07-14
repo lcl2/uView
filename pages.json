@@ -20,8 +20,32 @@
 			"style": {
 				"navigationBarTitleText": "购物中心"
 			}
+		},
+		{
+			"path": "pages/auth/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
 		}
-	],
+	    ,{
+            "path" : "pages/cart/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/auth/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uView",
@@ -29,24 +53,29 @@
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {
-	    "color": "#909399",
-	    "selectedColor": "#303133",
+	    "color": "#000000",
+	    "selectedColor": "#1396DB",
 	    "borderStyle": "black",
 	    "backgroundColor": "#ffffff",
 	    "list": [{
 	        "pagePath": "pages/index/index",
-	        "iconPath": "static/index.png",
-	        "selectedIconPath": "static/index-selected.png",
+	        "iconPath": "static/icon/h.png",
+	        "selectedIconPath": "static/icon/h(1).png",
 	        "text": "首页"
 	    },{
 		    "pagePath": "pages/shops/index",
-		    "iconPath": "static/center.png",
-		    "selectedIconPath": "static/center-selected.png",
+		    "iconPath": "static/icon/shop.png",
+		    "selectedIconPath": "static/icon/shop(1).png",
 		    "text": "商品"
-		}, {
+		},{
+		    "pagePath": "pages/cart/index",
+		    "iconPath": "static/icon/g.png",
+		    "selectedIconPath": "static/icon/g(1).png",
+		    "text": "购物车"
+		},{
 	        "pagePath": "pages/center/index",
-	        "iconPath": "static/center.png",
-	        "selectedIconPath": "static/center-selected.png",
+	        "iconPath": "static/icon/m.png",
+	        "selectedIconPath": "static/icon/m(1).png",
 	        "text": "我"
 	    }]
 	}

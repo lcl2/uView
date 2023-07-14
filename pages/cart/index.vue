@@ -1,6 +1,6 @@
 <template>
 	<view>
-		center
+		
 	</view>
 </template>
 
@@ -8,18 +8,15 @@
 	export default {
 		data() {
 			return {
+				
 			}
 		},
-		async onLoad() {
-			if(!this.$u.utils.isLogin()) return
-			
-		},
 		methods: {
-
+			
 		}
 	}
 </script>
 
-<style lang="scss" scoped>
-	
+<style>
+
 </style>
